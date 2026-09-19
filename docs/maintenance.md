@@ -8,7 +8,7 @@
 
 ## 1.1.0 — September 2026
 
-Maintenance release of Adrien Blanchard's 2023 toolkit, originally made while studying. The Gumroad archive remains linked in the README and has not been replaced.
+Maintenance release of Adrien Blanchard's 2023 toolkit. The Gumroad archive remains linked in the README and has not been replaced.
 
 - Load configuration relative to the installed package, not a hard-coded Windows add-on path.
 - Restore selection after exports; join output paths correctly and refuse existing files.

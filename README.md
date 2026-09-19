@@ -6,7 +6,7 @@ Everyday pipeline helpers for Blender: save versions, name objects, export FBX a
 
 <img src="docs/media/original-gumroad-panel.png" alt="The original P-Tool sidebar" width="540">
 
-Created by Adrien Blanchard in 2023 while studying, and now maintained for current Blender. The image above comes from the original Gumroad listing.
+Created by Adrien Blanchard in 2023, and now maintained for current Blender. The image above comes from the original Gumroad listing.
 
 ## Inside the toolkit
 
