@@ -43,3 +43,7 @@ python scripts/build_addon.py
 ```
 
 See [maintenance notes](docs/maintenance.md) for changes from the 2023 archive and test coverage.
+
+## License
+
+[GPL-3.0-or-later](LICENSE). Original TOTB / Adrien Blanchard credits are retained. Distributed modified versions must preserve the applicable GPL freedoms and provide corresponding source under its terms.

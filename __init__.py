@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """P-Tool: the original TOTB Blender pipeline toolkit, maintained for current Blender."""
 
 bl_info = {
