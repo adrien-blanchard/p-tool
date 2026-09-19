@@ -1,0 +1,12 @@
+{
+    "MESH": "SM_",
+    "CURVE": "CURV_",
+    "SURFACE": "SM_",
+    "META": "SM_",
+    "FONT": "SM_",
+    "CAMERA": "CAM_",
+    "LIGHT": "LGT_",
+    "ARMATURE": "SK_",
+    "EMPTY": "NULL_",
+    "MATERIAL": "M_"
+}
