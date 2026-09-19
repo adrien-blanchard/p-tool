@@ -6,7 +6,7 @@ Everyday pipeline helpers for Blender: save versions, name objects, export FBX a
 
 <img src="docs/media/original-gumroad-panel.png" alt="The original P-Tool sidebar" width="540">
 
-Originally developed in 2023 as the TOTB pipeline toolkit. This repository maintains that tool for current Blender; the image above comes from its original Gumroad listing.
+Created by Adrien Blanchard in 2023 while studying, and now maintained for current Blender. The image above comes from the original Gumroad listing.
 
 ## Inside the toolkit
 
@@ -47,4 +47,4 @@ See [maintenance notes](docs/maintenance.md) for changes from the 2023 archive a
 
 ## License
 
-[GPL-3.0-or-later](LICENSE). Original TOTB / Adrien Blanchard credits are retained. Distributed modified versions must preserve the applicable GPL freedoms and provide corresponding source under its terms.
+[GPL-3.0-or-later](LICENSE). Adrien Blanchard. Distributed modified versions must preserve the applicable GPL freedoms and provide corresponding source under its terms.
