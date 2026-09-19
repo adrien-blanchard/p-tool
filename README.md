@@ -19,7 +19,7 @@ Originally developed in 2023 as the TOTB pipeline toolkit. This repository maint
 
 ## Install
 
-1. Download `P-Tool-1.1.0.zip` from **Releases**. Do not extract it.
+1. Download `P-Tool-1.1.1.zip` from **Releases**. Do not extract it.
 2. In Blender, open **Edit > Preferences > Add-ons > Install from Disk** and select the ZIP.
 3. Enable **P-Tool**, then open the 3D View sidebar with **N** and choose **P-Tool**.
 
@@ -39,6 +39,7 @@ No external Python dependencies inside Blender.
 
 ```text
 blender --background --factory-startup --python-exit-code 1 --python tests/blender_smoke.py
+blender --factory-startup --python-exit-code 1 --python tests/viewport_smoke.py
 python scripts/build_addon.py
 ```
 

@@ -6,7 +6,7 @@ bl_info = {
     "author": "TOTB, Adrien Blanchard",
     "description": "Everyday pipeline helpers for Blender",
     "blender": (3, 6, 0),
-    "version": (1, 1, 0),
+    "version": (1, 1, 1),
     "location": "3D View > Sidebar > P-Tool",
     "doc_url": "https://github.com/adrien-blanchard/p-tool",
     "tracker_url": "https://github.com/adrien-blanchard/p-tool/issues",

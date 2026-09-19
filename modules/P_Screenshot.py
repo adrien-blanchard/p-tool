@@ -27,8 +27,8 @@ def take(operator, screenshot_path):
     render = context.scene.render
     old_format = render.image_settings.file_format
     old_filepath = render.filepath
-    try:
-        with preserve_selection():
+    with preserve_selection():
+        try:
             context.space_data.overlay.show_overlays = False
             render.image_settings.file_format = "PNG"
             for selected, path in zip(objects, paths):
@@ -38,12 +38,13 @@ def take(operator, screenshot_path):
                 selected.select_set(True)
                 render.filepath = str(path)
                 bpy.ops.render.opengl(write_still=True, view_context=True)
-    finally:
-        for obj, hidden in visibility:
-            obj.hide_set(hidden)
-        context.space_data.overlay.show_overlays = overlay
-        render.image_settings.file_format = old_format
-        render.filepath = old_filepath
+        finally:
+            # Hidden objects cannot be selected: restore visibility before selection.
+            for obj, hidden in visibility:
+                obj.hide_set(hidden)
+            context.space_data.overlay.show_overlays = overlay
+            render.image_settings.file_format = old_format
+            render.filepath = old_filepath
     operator.report({"INFO"}, f"Saved {len(paths)} viewport capture(s).")
 
 
